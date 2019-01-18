@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"cortex-debug.armToolchainPath": "E:/Program Files (x86)/GNU Tools ARM Embedded/7 2018-q2-update/bin"
+	}
+}
