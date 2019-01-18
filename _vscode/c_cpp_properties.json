@@ -1,0 +1,42 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${default}",
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/Drivers/STM32F4_Discovery",
+                "${workspaceFolder}/Inc",
+                "${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc",
+                "${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" ,
+                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                "${workspaceFolder}/Drivers/CMSIS/Include",
+                
+                "${env:GNUARM}/arm-none-eabi/include/c++/**",
+                "${env:GNUARM}/arm-none-eabi/include/c++/7.3.1/",
+                "${env:GNUARM}/arm-none-eabi/include/c++/7.3.1/arm-none-eabi/",
+                "${env:GNUARM}/arm-none-eabi/include/c++/7.3.1/backward/",
+                "${env:GNUARM}/lib/gcc/arm-none-eabi/7.3.1/include/",
+                "${env:GNUARM}/lib/gcc/arm-none-eabi/7.3.1/include-fixed/",
+                "${env:GNUARM}/arm-none-eabi/include/",
+                "${env:GNUARM}/**"
+            ],
+            "defines": ["USE_HAL_DRIVER", "STM32F407xx"],
+            "browse": {
+                "path": [
+                    "${default}",
+                    "${workspaceFolder}/**",
+                    "${env:GNUARM}/**"
+                 ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "windowsSdkVersion": "10.0.17763.0",
+            "compilerPath": "E:/Program Files (x86)/GNU Tools ARM Embedded/7 2018-q2-update/bin/arm-none-eabi-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
