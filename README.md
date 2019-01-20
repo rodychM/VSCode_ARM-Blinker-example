@@ -2,11 +2,11 @@
 
 ARM STM32F4 Discovery blinker example from STMicroelectronics using VSCode
 
-Visual Studio Code is an exceptionally lightened editor from Microsoft that has been designed to make it bendable to work with a variety of programming tools. Having used Eclipse in the past for ARM development, I decided to try this as an editor.
+Visual Studio Code is a light editor from Microsoft that has been designed to make it bendable to work with a variety of programming tools. Having used Eclipse in the past for ARM development, I decided to try this as an editor.
 
-Being a fairly low level installation, I used this as an opportunity to get familiar again with GNU build tools and using the ARM GNU tools. I would have gone for the pre-packaged ARM development environments, but most are Eclipse based with crippled ARM compiler tools (32 kb). 
+Being a fairly low level installation, I used this as an opportunity to get familiar again with GNU build tools and using the ARM GNU tools. I would have gone for the pre-packaged ARM development environments, but most are Eclipse based with crippled ARM compiler tools (32 kb).
 
-There are people out there that have successfully complied ARM code with CMAKE; I wanted to have something going as a starting  reference base with GNU build tools and then transition over to CMAKE to get familiar with that eventually.
+There are people out there that have successfully complied ARM code with CMAKE; I wanted to have something going as a starting  reference base with GNU build and ARM compile tools and then transition over to CMAKE to get familiar with that eventually.
 
 VS Code Extensions:
 
@@ -17,7 +17,6 @@ There are a number of extensions that I have installed to make this work:
 * Bookmarks
 
 The Bookmarks extension is optional, but makes exploring the code much easier.
-
 
 Makefiles:
 
