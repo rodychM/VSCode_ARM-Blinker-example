@@ -43,11 +43,12 @@ To clean, the makefile was modified to indicate where the MinGW rm files are.
 
 ###### Upload:
 
-The cwd option was set for the "${workspaceFolder}/build" directory to let the ST LINK command line tool find the firmware files to upload. To make the file more generic so I could drop into any new project I used the environment variable: 
+The cwd option was set for the `${workspaceFolder}/build` directory to let the ST LINK command line tool find the firmware files to upload. To make the file more generic so I could drop into any new project I used the environment variable: 
+```
       "command": "ST-LINK_CLI -P ${workspaceFolderBasename}.hex 0x08000000",
-
+```
 ###### Debugging:
 
-I used the CORTEX Debug extension from Marus (https://github.com/Marus/cortex-debug). I was able to quickly set it up in the launch.json file. The only caveat is that I was not able to use the ${workspaceFolderBasename} environment variable to make the launcher generic. No big deal to script that when I get time. When I got it up and running I was very pleased and look forward to playing around debugging more when I get time.
+I used the CORTEX Debug extension from Marus (https://github.com/Marus/cortex-debug). I was able to quickly set it up in the launch.json file. The only caveat is that I was not able to use the `${workspaceFolderBasename}` environment variable to make the launcher generic. No big deal to script that when I get time. When I got it up and running I was very pleased and look forward to playing around debugging more when I get time.
 
 
